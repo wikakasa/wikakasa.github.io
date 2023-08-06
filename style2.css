@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     text-align: center;
     color: #1f1017;
-    background-color: pink;
+    background-color: lightpurple;
     background-image: url("bg.bmp");
     text-shadow: 0.5pt 0.5pt #fbbfcb77;
 }
@@ -56,8 +56,8 @@ hr {
 .button-link {
     width: 15%;
     height: 48px;
-    background-color: #fbbfcb;
-    background-color: #fbbfcbaa;
+    background-color: #c3adff;
+    background-color: #c3adff;
     color: white;
     border-width: 3px;
     border-style: solid;
