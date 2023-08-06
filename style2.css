@@ -1,0 +1,185 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    color: #1f1017;
+    background-color: pink;
+    background-image: url("bg.bmp");
+    text-shadow: 0.5pt 0.5pt #fbbfcb77;
+}
+
+a {
+    color: palevioletred;
+    transition: color 0.3s;
+}
+
+a:visited {
+    color: palevioletred;
+}
+
+a:hover {
+    color: pink;
+}
+
+hr {
+    border: 1px palevioletred solid;
+    border-radius: 2px;
+}
+
+#main {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: #ffffed;
+    background-color: #ffffedaa;
+    padding: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: palevioletred;
+    border-radius: 30px;
+    -webkit-backdrop-filter: blur(4px);
+    -o-backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+.code-block {
+    font-family: monospace;
+    font-size: 12pt;
+    background-color: #0f000777;
+    border-radius: 3px;
+    color: #ffffed;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.button-link {
+    width: 15%;
+    height: 48px;
+    background-color: #fbbfcb;
+    background-color: #fbbfcbaa;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-color: palevioletred;
+    border-radius: 30px;
+    transition: border-color 0.3s;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.button-link:hover {
+    border-color: pink;
+}
+
+@media (prefers-color-scheme: dark) {
+    #main {
+        background-color: #1f1017;
+        background-color: #1f1017aa;
+    }
+
+    .button-link {
+        background-color: #1f1017;
+        background-color: #1f1017aa;
+    }
+
+    body {
+        color: #ffffed;
+    }
+
+    a {
+        color: pink;
+    }
+
+    a:visited {
+        color: pink;
+    }
+
+    a:hover {
+        color: palevioletred;
+    }
+
+    .card {
+        color: #1f1017 !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #main {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .button-link {
+        width: 49%;
+        height: 72px;
+        font-size: large;
+        margin-bottom: 8px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 384px;
+    margin: 0 10px;
+    Text-align: center;
+    border: 3px palevioletred solid;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table
+{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table a {
+    color: dodgerblue;
+}
+
+table a:visited {
+    color: dodgerblue;
+}
+
+table a:hover {
+    color: blue;
+}
+
+td, th 
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th 
+{
+    text-align: center;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #F9E0E5;
+}
