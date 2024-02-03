@@ -18,12 +18,12 @@ body {
 }
 
 .topnav a:hover {
-  background-image: url('//uno-net.us.to/asset/shine-purple2-short.png');
+  background-image: url('//wika.polkan.org/uno/asset/shine-purple2-short.png');
   color: black;
 }
 
 .topnav a.active {
- background-image: url('//uno-net.us.to/asset/shine-purple-short.png');
+ background-image: url('//wika.polkan.org/uno/asset/shine-purple-short.png');
   color: white;
 }
 
