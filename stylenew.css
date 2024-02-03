@@ -5,6 +5,7 @@ body {
 
 .topnav {
   overflow: hidden;
+  background-color: gray;
   background-image: url('http://uno-net.us.to/asset/shine3.png');
 }
 
@@ -26,7 +27,6 @@ body {
  background-image: url('http://uno-net.us.to/asset/shine-purple-short.png');
   color: white;
 }
-
 
 
 
